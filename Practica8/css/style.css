@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #099e79;
+}
+.areaPrincipal { 
+    background-image: url("../img/Hot-Dogss.jpg"); /* agregar fondo de imagen al div*/
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+    -webkit-background-size: 100% 100%;
+    
+    -moz-background-size: 100% 100%;
+    
+    -o-background-size: 100% 100%;
+    
+    background-size: 100% 100%;
+    
+}
+
+#encabezado {
+    background: #f13030;
+    height: 240px;
+    text-align: center;
+    background-image: url("../img/1695088_21388.gif");
+    background-repeat: no-repeat;
+    background-size: 250px 200px;
+}
+.piePagina{
+    width: 100%; 
+    height: 100px; 
+    background: #e9e625; 
+    color: white; 
+    bottom: 0; 
+    position: fixed;
+    left: 0;
+}
+#menu{ 
+    height: 40px;
+    position: relative;
+    top: 200px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111111;
+}
+#datos{
+    width: 80%;
+    background-color: #a6ff00;
+    height: 600px;
+    margin: auto;
+    opacity: 1;
+    color: #000000;
+    padding: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    color:crimson;
+}
+h4{
+    text-align:justify;
+
+}
+p {
+    width: 10em;
+    height:10em;
+    margin: 15px;
+    padding: 15px;
+    float:left;
+  }
+  
+.img-galle{
+    display: flex;
+    flex-wrap: wrap;
+}
